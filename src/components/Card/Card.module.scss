@@ -1,0 +1,31 @@
+@import "@/styles/settings/__settings";
+
+.card {
+  padding: 1.125rem 1.125rem 1.5rem;
+  width: 220px;
+  text-align: left;
+  text-decoration: none;
+  color: $color-secondary;
+  border: 1px solid $color-border;
+  &:hover {
+    border-color: $color-primary;
+  }
+
+  h3 {
+    margin: 0;
+    color: $color-primary;
+    font-size: 1.125rem;
+  }
+  p {
+    margin: 0;
+    padding: 0.75rem 0 0;
+    font-size: 0.813rem;
+    color: $color-accent;
+  }
+
+  &.err {
+    p {
+      color: $color-error;
+    }
+  }
+}

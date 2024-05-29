@@ -1,0 +1,11 @@
+@import "@/styles/settings/__settings";
+
+.searchbar {
+  input {
+    width: 100%;
+  }
+  .hint {
+    opacity: 0.5;
+    font-size: 0.7em;
+  }
+}

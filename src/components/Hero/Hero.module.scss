@@ -1,0 +1,27 @@
+@import "@/styles/settings/__settings";
+
+.hero {
+  width: 100%;
+  color: $color-accent;
+  .title {
+    margin: 0;
+    width: 100%;
+    padding-top: 80px;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+  .title,
+  .description {
+    text-align: center;
+  }
+  img {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+  ul {
+    list-style: none;
+  }
+  .content {
+    text-align: center;
+  }
+}
